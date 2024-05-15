@@ -1,0 +1,16 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "waylander86 <waylander86@protonmail.com> (https://github.com/Waylander86)",
+  "license": "ISC",
+  "dependencies": {
+    "express-fileupload": "^1.5.0",
+    "express.js": "^1.0.0",
+    "nodemon": "^3.1.0"
+  }
+}
