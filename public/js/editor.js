@@ -25,7 +25,7 @@ const uploadImage = (uploadFile, uploadType) => {
         }).then(res => res.json())
         .then(data => {
             bannerPath = `${location.origin}/${data}`;
-            banner.computedStyleMap.backgroundImage = `url("${bannerPath}")`;
+            banner.style.backgroundImage = `url("${bannerPath}")`;
         })
     }
 }
